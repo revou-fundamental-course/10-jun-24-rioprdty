@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  background-color: #e7e7e7;
+}
+
+main {
+  width: 100%;
+  min-height: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin: 5px 0;
+}
+
+section .suhu {
+  margin-bottom: 10px;
+}
+
+section label {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+div {
+  margin: 10px 0;
+}
+
+section input {
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e7e7e7;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+button:hover {
+  transform: scale(0.9);
+  box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.7);
+}
+
+#submit {
+  background-color: #0066a2;
+}
+
+#reset {
+  background-color: #ba0000;
+}
+
+#reserve {
+  background-color: #caca01;
+  margin-top: 10px;
+}
+
+#caraKalkulasi {
+  background-color: #e7e7e7;
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.petunjuk {
+  margin-top: 40px;
+}
+
+.petunjuk h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+hr {
+  margin: 8px 0;
+}
+
+span {
+  font-family: "Noto Sans Math", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
